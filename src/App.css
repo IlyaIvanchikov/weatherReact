@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(45,176,224,1);
+  background: -moz-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(45,176,224,1)), color-stop(100%, rgba(96,40,168,1)));
+  background: -webkit-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
+  background: linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db0e0', endColorstr='#6028a8', GradientType=1 );
+}
+
+.main {
+  height: 55vh;
+  width: 60%;
+  margin: 0 auto;
+}
+.h1 {
+  position: relative;
+  left: 250px;
+}
+.info {
+  height: 55vh;
+  background: url("img/weather.jpg") center center no-repeat;
+  background-blend-mode: multiply;
+  background-color: #484747;
+  border-right: 2px solid #131e29;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
+
+.form {
+  height: 55vh;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+input[type="text"] {
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #113a65;
+  width: 50%;
+  padding-bottom: 4px;
+  bottom: 5vh;
+  color: #fff;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #103a65;
+}
+
+input::-moz-placeholder {
+  color: #103a65;
+}
+
+button {
+  position: relative;
+  bottom: 5vh;
+  border: 2px solid #103a65;
+  border-bottom: 4px solid #103a65;
+  padding: 8px 10px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #235d9c;
+  color: #fff;
+  outline: none!important;
+}
+
+button:hover {
+  border-bottom: 2px solid #103a65;
+  position: relative;
+  bottom: 4vh;
+}
+
+button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  bottom: 4vh;
+}
+
+.info h2 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.info p {
+  color: #e4e4e4;
+  font-weight: bold;
+}
+
+.infoWeath {
+  width: 60%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.error {
+  color: #041f3c;
+  font-weight: bold;
+}
+.minsk-main {
+  height: 100vh;
+  width: 20%;
+  background-image: url("./img/minsk.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.minsk-main * p {
+  font-size: 20px;
+  position: relative;
+  top: 35vh;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+.minsk {
+  position: relative;
+  top: 30vh;
+  left: 6vw;
+}
+.zhlobin-main {
+  height: 100vh;
+  width: 20%;
+  background-image: url("./img/zhlobin_geraldika-by.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.zhlobin-main * p {
+  font-size: 20px;
+  position: relative;
+  top: 33vh;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+.zhlobin {
+  position: relative;
+  top: 28vh;
+  left: 5vw;
+}
